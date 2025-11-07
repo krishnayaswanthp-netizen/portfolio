@@ -1,22 +1,49 @@
-->Personal Portfolio Website
-  A responsive and interactive web portfolio designed to showcase my skills, projects, and experience. The website features smooth navigation with animated buttons, structured sections for About, Projects, Skills,    and Contact, and a professional design that highlights my technical background and achievements.
+# Portfolio Website
 
-->Key Features:
+This is a single-page portfolio website built with HTML, CSS, and vanilla JavaScript. It is modern, responsive, and includes interactive features.
 
-  1.Modern responsive layout for desktop and mobile
+## Project Structure
 
-  2.Animated navigation bar with interactive buttons
+```
+my_portfolio_web/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── app.js
+├── assets/
+│   ├── images/
+│   └── icons/
+└── README.md
+```
 
-  3.Dedicated sections for About, Projects, Skills, and Contact
+## Features
 
-  4.Option to showcase resume, GitHub, and social links
+- **Responsive Design**: Mobile-first, grid- and flex-based layout.
+- **Light/Dark Theme**: Toggle with persistence in localStorage.
+- **Interactive Sections**: Hero, About, Skills, Projects, Timeline, Testimonials, Blog, Contact.
+- **Animations**: Smooth scrolling, scroll-reveal, parallax, and micro-interactions.
+- **Accessibility**: ARIA attributes, keyboard navigation, and focus management.
 
-  5.Clean UI/UX design with customizable themes
+## How to Use
 
-->Tech Stack:
+1. Open `index.html` in a browser to view the site.
+2. Replace placeholder images and text in the `assets/` folder and `index.html`.
+3. Customize colors and fonts in `css/styles.css`.
 
-  1.Frontend: HTML, CSS
+## Customization
 
-  2.Styling/Animations: CSS transitions & keyframes
+- **Hero Section**: Update headline and roles in `index.html`.
+- **Projects**: Add new projects in the Projects section of `index.html`.
+- **Hosting**: Use GitHub Pages for deployment. Push the repository and enable Pages in settings.
 
-  3.Deployment: GitHub Pages
+## Hosting on GitHub Pages
+
+1. Push the project to a GitHub repository.
+2. Go to the repository's settings.
+3. Enable GitHub Pages and select the branch.
+
+## Notes
+
+- Placeholder images and text are used. Replace them with your content.
+- Ensure all assets are optimized for better performance.
